@@ -51,7 +51,7 @@ public class ms10 {
         String clf = su%2 == 0 ? "짝수 입니다" : "홀수입니다" ;
         String mmessage = su + " 은(는) " + clf;
         System.out.println(mmessage);
-
+        //message로 정리해서 sout에 넣으면 보기에 더 깔끔한 것 같다.
 
         int score = 30 ; //60점 이상이면 합격 85점이므로 합격입니다.
         String vkf = score >= 60 ? " 이여서 합격 입니다." : " 이여서 불합격 입니다." ;
