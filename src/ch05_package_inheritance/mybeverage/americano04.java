@@ -3,8 +3,15 @@ package ch05_package_inheritance.mybeverage;
 public class americano04 extends beverage04 {
     private double waterAmount;
 
+    @Override
+    public String toString() {
 
-//    public void sipAmericano(){
+        String message=", 물량 : "+ this. waterAmount+"ml";
+        return super.toString()+ message;
+    }
+
+
+    //    public void sipAmericano(){
 //        String message = "아메리카노를 홀짝 홀짝 마십니다";
 //        System.out.println(message);
 //    }
