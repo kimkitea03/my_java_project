@@ -29,7 +29,9 @@ public class triangle extends shape{
         System.out.println("삼각형 정보");
         System.out.println("면적 : "+super.area);
         System.out.println("삼각형의 둘레" + super.perimeter);
-        System.out.println("라인 색상 : ");
-        System.out.println("채우기 색상 : ");
     }
-}
+
+//    @Override
+//    protected void draw() {
+//        super.draw();
+    }

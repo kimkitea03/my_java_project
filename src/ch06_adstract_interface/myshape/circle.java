@@ -29,8 +29,12 @@ public class circle extends shape{
         super.perimeter=this.calcperimeter();
         System.out.println("원의 정보");
         System.out.println("원의 면적 : " + super.area);
+        String message = "원 중심 : ("+this.xpos+", "+this.ypos+")";
+
+        System.out.println(message);
         System.out.println("원의 둘레" + super.perimeter);
 
     }
 
 }
+
